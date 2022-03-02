@@ -16,8 +16,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y9c-1q-Fo5">
+                                <rect key="frame" x="126" y="765" width="162" height="45"/>
+                                <color key="backgroundColor" systemColor="tintColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                <color key="tintColor" systemColor="linkColor"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Start">
+                                    <color key="titleColor" systemColor="systemBackgroundColor"/>
+                                </state>
+                            </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="47" translatesAutoresizingMaskIntoConstraints="NO" id="ZSH-1g-11b">
-                                <rect key="frame" x="132" y="87" width="150" height="544"/>
+                                <rect key="frame" x="132" y="97" width="150" height="544"/>
                                 <subviews>
                                     <view alpha="0.29999999999999999" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Usb-6u-WKK">
                                         <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
@@ -33,36 +43,21 @@
                                     </view>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="O39-Mi-cJ1" firstAttribute="top" secondItem="ZSH-1g-11b" secondAttribute="top" constant="197" id="Fqc-aP-j9w"/>
-                                    <constraint firstItem="O39-Mi-cJ1" firstAttribute="centerY" secondItem="ZSH-1g-11b" secondAttribute="centerY" id="HU3-rs-qJL"/>
+                                    <constraint firstItem="O39-Mi-cJ1" firstAttribute="top" secondItem="ZSH-1g-11b" secondAttribute="top" constant="197" id="mE9-DR-PIs"/>
+                                    <constraint firstItem="O39-Mi-cJ1" firstAttribute="centerY" secondItem="ZSH-1g-11b" secondAttribute="centerY" id="v9B-qw-vLT"/>
                                 </constraints>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y9c-1q-Fo5">
-                                <rect key="frame" x="126" y="765" width="162" height="45"/>
-                                <color key="backgroundColor" systemColor="tintColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="162" id="68e-jE-Ehv"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
-                                <color key="tintColor" systemColor="linkColor"/>
-                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" title="Start">
-                                    <color key="titleColor" systemColor="systemBackgroundColor"/>
-                                </state>
-                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="labelColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Y9c-1q-Fo5" secondAttribute="bottom" constant="52" id="928-BV-ORF"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ZSH-1g-11b" secondAttribute="trailing" constant="132" id="GiH-fb-skM"/>
-                            <constraint firstItem="ZSH-1g-11b" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="43" id="KdE-Of-Trd"/>
-                            <constraint firstAttribute="bottom" secondItem="ZSH-1g-11b" secondAttribute="bottom" constant="265" id="YxF-sc-hi7"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ZSH-1g-11b" secondAttribute="trailing" constant="132" id="ZRg-Hd-V4e"/>
-                            <constraint firstItem="ZSH-1g-11b" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="132" id="e1m-ZD-Qvf"/>
-                            <constraint firstItem="ZSH-1g-11b" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="132" id="fsL-ai-G4G"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Y9c-1q-Fo5" secondAttribute="trailing" constant="126" id="g9v-5a-LQw"/>
-                            <constraint firstItem="Y9c-1q-Fo5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="126" id="tPR-Ty-LOz"/>
+                            <constraint firstItem="Y9c-1q-Fo5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="126" id="6Ug-aW-bVX"/>
+                            <constraint firstAttribute="bottom" secondItem="ZSH-1g-11b" secondAttribute="bottom" constant="255" id="VGv-jw-4bu"/>
+                            <constraint firstItem="ZSH-1g-11b" firstAttribute="centerX" secondItem="Y9c-1q-Fo5" secondAttribute="centerX" id="dS5-Ax-dqb"/>
+                            <constraint firstItem="ZSH-1g-11b" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="53" id="rex-5Q-CaV"/>
+                            <constraint firstItem="ZSH-1g-11b" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="132" id="uTP-AE-gJ6"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Y9c-1q-Fo5" secondAttribute="bottom" constant="52" id="uTp-Mj-QRu"/>
+                            <constraint firstItem="ZSH-1g-11b" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="x1x-DJ-LZI"/>
                         </constraints>
                     </view>
                     <connections>
